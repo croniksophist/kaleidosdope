@@ -1,0 +1,85 @@
+# ---- GENERAL SYSTEM FILES ----
+.DS_Store
+Thumbs.db
+
+# ---- PYTHON ----
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python-specific logs and caches
+*.log
+*.sqlite3
+db.sqlite3
+
+# ---- NODE.JS ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+.cache/
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+bower_components/
+.pnp/
+.pnp.js
+
+# ---- CLOUD STORAGE ----
+# Ignore large media files locally (use Git LFS or external storage)
+*.mp4
+*.mov
+*.avi
+*.wav
+*.flac
+*.psd
+*.ai
+*.tiff
+*.raw
+*.zip
+
+# ---- ENVIRONMENT & SECRETS ----
+.env
+*.pem
+*.key
+config.json
+credentials.json
+
+# ---- IDEs & EDITORS ----
+# VS Code
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+
+# MacOS Finder files
+.DS_Store
+
+# ---- OTHER ----
+# Optional: Ignore personal workflow files
+*.swp
+*.swo
+*.bak
+*.orig
